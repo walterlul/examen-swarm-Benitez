@@ -2,15 +2,17 @@
 
 ## PASO 1 Crear las imagenes
 
-en apiRest
+## en apiRest
 `npm install`
+
 `docker build . -t examen/restapi`
-en apiSoap
+## en apiSoap
 `npm install`
+
 `docker build . -t examen/soapapi`
-en client
+## en client
 `docker build . -t examen/client`
-en mysql
+## en mysql
 `docker build . -t examen/mysql`
 
 ## PASO 2 Desplegar los servicios con swarm
