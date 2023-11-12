@@ -16,3 +16,9 @@
 `docker swarm init`
 
 `docker stack deploy -c docker-compose.yml mis-servicios`
+
+## Aclaraciones
+
+Se creo el servidor SOAP en el puerto 4000
+
+El servidor web se encuentra alojado en localhost:8080
