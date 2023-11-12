@@ -3,12 +3,8 @@
 ## PASO 1 Crear las imagenes
 
 ## en apiRest
-`npm install`
-
 `docker build . -t examen/restapi`
 ## en apiSoap
-`npm install`
-
 `docker build . -t examen/soapapi`
 ## en client
 `docker build . -t examen/client`
